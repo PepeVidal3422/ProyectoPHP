@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoJoseVidal</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Logo del taller" style="width: 100px; height: 100px;">
+        <h1>Talleres GrefG</h1>
+    </header>
+
+    <main>
+
+        <form action="./include/procesa.php" method="get">
+
+
+            <label for="nombre">Nombre y apellidos</label>
+            <input type="text" value="" name="nombre"><br>
+
+            <label for="averia">Tipo de averia</label><br>
+            <select name="averia">
+                <option value="1">Motor</option>
+                <option value="2">Ruedas</option>
+                <option value="3">Pintura</option>
+                <option value="4">Interior</option>
+            </select><br>
+
+            <label for="marca">Que marca es tu coche</label><br>
+            <input type="checkbox" name="marca" value="1"><label for="marca">Mercedes</label><br>
+            <input type="checkbox" name="marca" value="2"><label for="marca">Ford</label><br>
+            <input type="checkbox" name="marca" value="3"><label for="marca">BMW</label><br>
+            <input type="checkbox" name="marca" value="4"><label for="marca">Seat</label><br>
+
+            <label for="puertas">Puertas del coche</label>
+            <input type="number" name="puertas"><br>
+
+            <label for="tema">Tema de la paguina</label><br>
+            <input type="radio" name="tema" value="1"><label for="tema">Claro</label><br>
+            <input type="radio" name="tema" value="2"><label for="tema">Oscuro</label><br>
+            <input type="radio" name="tema" value="3"><label for="tema">Pastel</label><br>
+
+            <label for="valoracion">Tu valoracion del servicio</label>
+            <input name="valoracion" type="number" max="5" min="0"><br>
+
+            <label for="opinion">Danos tu opinion</label>
+            <textarea name="opinion" cols="30" rows="5"></textarea><br>
+
+
+            <input type="submit" name="Enviar">
+
+        </form>
+
+
+
+    </main>
+    <footer>
+        <p>Jose Vidal Castells --- Entornos de Desarollo</p>
+    </footer>
+</body>
+
+</html>

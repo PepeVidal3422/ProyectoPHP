@@ -1,0 +1,22 @@
+*{
+    
+    color: #1a1a1a;
+
+    margin: 0 0 0 10 auto;
+    padding: 0;
+}
+
+
+header{
+    background: #eec2c2;
+    border: 1px solid #000000;
+    margin: 0 0 50px 0;
+
+    display: flex;
+}
+footer{
+    background: #eee8b4;
+    text-align: center;
+    margin: 50px 0 0 0;
+    border: 1px solid #000000;
+}
